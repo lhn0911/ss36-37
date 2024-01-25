@@ -3,12 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculate Sum</title>
+    <style>
+        input {
+            width: 50px;
+            height: 20px;
+        }
+    </style>
+    <title>Document</title>
 </head>
 <body>
-    <input type="number" id="input1" placeholder="Nhập số thứ nhất">
-    <input type="number" id="input2" placeholder="Nhập số thứ hai">
-    <input type="text" id="resultInput" readonly placeholder="Tổng sử dụng input">
-    <input type="text" id="resultDiv" readonly placeholder="Tổng sử dụng div">
+    <input type="number" id="autoSumInput" placeholder="Auto Sum">
+    <div>
+        <input type="number" id="a"> + 
+        <input type="number" id="b"> = 
+        <input type="number" id="manualSum" readonly>
+        <button id="btn">Sum</button>
+    </div>
+    <script src="./bai4.js"></script>
 </body>
 </html>
